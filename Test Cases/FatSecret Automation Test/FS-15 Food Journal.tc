@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User dapat mengunggah foto makanan yang diambil langsung melalui kamera.</description>
+   <name>FS-15 Food Journal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e443341-c71b-4bf3-9e64-8db04dca678d</testCaseGuid>
+</TestCaseEntity>
