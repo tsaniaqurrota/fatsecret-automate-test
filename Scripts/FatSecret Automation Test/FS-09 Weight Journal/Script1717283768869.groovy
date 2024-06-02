@@ -19,31 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.fatsecret.android')
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/Post new weight journal'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-9/Post new weight journal'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/Check button'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-9/Check button'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/Field- New weight'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-9/Field- New weight'), 0)
 
-Mobile.setText(findTestObject('Object Repository/FatSecret/EditText - Input new weight'), '50', 0)
+Mobile.setText(findTestObject('Object Repository/FatSecret/FS-9/EditText - Input new weight'), '50', 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/Field - Target weight'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-9/Field - Target weight'), 0)
 
-Mobile.setText(findTestObject('Object Repository/FatSecret/EditText - Input target weight'), '48', 0)
+Mobile.setText(findTestObject('Object Repository/FatSecret/FS-9/EditText - Input target weight'), '48', 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/TextField - Journal'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-9/TextField - Journal'), 0)
 
-Mobile.setText(findTestObject('Object Repository/FatSecret/EditText - Input journal'), 'Berat badan terbaru saya', 0)
+Mobile.setText(findTestObject('Object Repository/FatSecret/FS-9/EditText - Input journal'), 'Berat badan terbaru saya', 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/Save'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-9/Save'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/TextView - Berat badan terbaru saya'), 0)
+Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-9/TextView - Berat badan terbaru saya'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/ImageView - Gap weight'), 0)
+Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-9/ImageView - Gap weight'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/ImageView - Icon gap weight'), 0)
+Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-9/ImageView - Icon gap weight'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/TextView - New weight'), 0)
+Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-9/TextView - New weight'), 0)
 
 Mobile.closeApplication()
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_FatSecretAutomationTesting</name>
+   <name>FS-10 Weight Journal</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>ac0251a5-c121-48a0-b67a-b6c38d3123be</testCaseGuid>
+   <testCaseGuid>5bbfaf64-a93d-40a5-b539-ed8d10dabdad</testCaseGuid>
 </TestCaseEntity>
