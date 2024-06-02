@@ -19,24 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.fatsecret.android')
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/android.widget.LinearLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/Ikon kamera'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/android.widget.RelativeLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/Mengambil foto'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/android.widget.RelativeLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/Makan pagi'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/android.widget.Button'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/Tombol shutter'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/android.widget.TextView - SELESAI'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/Tombol Selesai'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/android.widget.FrameLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-15/Tombol halaman utama'), 0)
 
 Mobile.scrollToText('Filter')
 
-Mobile.verifyElementExist(findTestObject('Object Repository/FatSecret/FS-15/android.widget.TextView - A MINUTE AGO'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/FatSecret/FS-15/Teks keterangan waktu'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-15/android.widget.TextView - A MINUTE AGO'), 
-    0)
+Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-15/Teks keterangan waktu'), 0)
 
 Mobile.closeApplication()
 

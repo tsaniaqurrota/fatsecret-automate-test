@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FS-18 Food Journal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6bedd66f-d23c-4339-b08e-9d4c277bfde7</testCaseGuid>
+</TestCaseEntity>

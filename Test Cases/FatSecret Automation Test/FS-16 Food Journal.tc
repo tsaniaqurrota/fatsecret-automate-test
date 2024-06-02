@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User dapat mengunggah foto makanan yang diambil dari galeri.</description>
+   <name>FS-16 Food Journal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bc97828e-46c8-4b85-8bf6-4018d0a62f1d</testCaseGuid>
+</TestCaseEntity>

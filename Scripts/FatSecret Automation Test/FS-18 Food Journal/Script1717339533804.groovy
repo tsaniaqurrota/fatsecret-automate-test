@@ -19,32 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.fatsecret.android')
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/Post new weight journal'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-18/Ikon kamera'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/Check button'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-18/Mengambil foto'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/Field- New weight'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-18/Camilan atau lainnya'), 0)
 
-Mobile.setText(findTestObject('Object Repository/FatSecret/FS-09/EditText - Input new weight'), '50', 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-18/Tombol shutter kamera'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/Field - Target weight'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-18/Tulis komentar'), 0)
 
-Mobile.setText(findTestObject('Object Repository/FatSecret/FS-09/EditText - Input target weight'), '48', 0)
+Mobile.sendKeys(findTestObject('Object Repository/FatSecret/FS-18/Teks Ice cream'), 'Ice cream')
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/TextField - Journal'), 0)
+Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('Object Repository/FatSecret/FS-09/EditText - Input journal'), 'Berat badan terbaru saya', 
-    0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-18/Tombol selesai'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/Save'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-18/Ikon halaman utama'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-09/TextView - Berat badan terbaru saya'), 0)
+Mobile.scrollToText('Filter')
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-09/ImageView - Gap weight'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/FatSecret/FS-18/Teks Ice cream (posted)'), 'Ice cream')
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-09/ImageView - Icon gap weight'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-09/TextView - New weight'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/FatSecret/FS-18/Penanda waktu'), 0)
 
 Mobile.closeApplication()
 

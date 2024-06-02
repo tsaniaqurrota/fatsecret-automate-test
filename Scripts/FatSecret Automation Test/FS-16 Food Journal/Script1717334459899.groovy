@@ -19,32 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.fatsecret.android')
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/Post new weight journal'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-16/Ikon kamera'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/Check button'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-16/Mengambil foto'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/Field- New weight'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-16/Makan siang'), 0)
 
-Mobile.setText(findTestObject('Object Repository/FatSecret/FS-09/EditText - Input new weight'), '50', 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-16/Ikon rol film'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/Field - Target weight'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-16/Pilih gambar'), 0)
 
-Mobile.setText(findTestObject('Object Repository/FatSecret/FS-09/EditText - Input target weight'), '48', 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-16/Tombol selesai'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/TextField - Journal'), 0)
+Mobile.tap(findTestObject('Object Repository/FatSecret/FS-16/Ikon halaman utama'), 0)
 
-Mobile.setText(findTestObject('Object Repository/FatSecret/FS-09/EditText - Input journal'), 'Berat badan terbaru saya', 
-    0)
+Mobile.scrollToText('Filter')
 
-Mobile.tap(findTestObject('Object Repository/FatSecret/FS-09/Save'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/FatSecret/FS-16/Teks filter (reload)'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-09/TextView - Berat badan terbaru saya'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-09/ImageView - Gap weight'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-09/ImageView - Icon gap weight'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-09/TextView - New weight'), 0)
+Mobile.verifyElementVisible(findTestObject('Object Repository/FatSecret/FS-16/Teks filter (reload)'), 0)
 
 Mobile.closeApplication()
 

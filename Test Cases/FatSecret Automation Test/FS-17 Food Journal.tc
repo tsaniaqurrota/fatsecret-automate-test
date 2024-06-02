@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User dapat menandai makanan pada foto yang akan diunggah.</description>
+   <name>FS-17 Food Journal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>20586886-a367-4a69-bc78-aeb11952a911</testCaseGuid>
+</TestCaseEntity>

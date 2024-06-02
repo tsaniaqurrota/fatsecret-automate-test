@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menambahkan berat badan dengan berat &#xd;
+badan tujuan underweight.</description>
+   <name>FS-12 Weight Journal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>336230e3-2df9-4e67-8f92-217ba97d1f3d</testCaseGuid>
+</TestCaseEntity>
