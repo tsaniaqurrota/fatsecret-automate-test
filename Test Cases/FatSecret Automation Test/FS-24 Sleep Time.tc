@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User menghapus waktu tidur harian</description>
+   <name>FS-24 Sleep Time</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>86fd87f6-41bd-4673-84c3-e6cbf11cec58</testCaseGuid>
+</TestCaseEntity>

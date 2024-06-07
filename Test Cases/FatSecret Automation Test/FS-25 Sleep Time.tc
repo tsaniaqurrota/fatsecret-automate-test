@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User menutup dialog pop up &#xd;
+waktu tidur harian</description>
+   <name>FS-25 Sleep Time</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ee18d588-b055-4bdd-bb09-26c53593d511</testCaseGuid>
+</TestCaseEntity>
